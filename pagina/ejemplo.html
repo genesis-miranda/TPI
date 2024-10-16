@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con Datos en Horizontal y Vertical</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .header {
+            background-color: #d9d9d9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th class="header">Atributo</th>
+            <th>Valor 1</th>
+            <th>Valor 2</th>
+            <th>Valor 3</th>
+        </tr>
+        <tr>
+            <td class="header">Nombre</td>
+            <td>Juan</td>
+            <td>Maria</td>
+            <td>Pedro</td>
+        </tr>
+        <tr>
+            <td class="header">Edad</td>
+            <td>25</td>
+            <td>30</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td class="header">Ciudad</td>
+            <td>Madrid</td>
+            <td>Barcelona</td>
+            <td>Valencia</td>
+        </tr>
+        <tr>
+            <td class="header">Correo</td>
+            <td>juan@mail.com</td>
+            <td>maria@mail.com</td>
+            <td>pedro@mail.com</td>
+        </tr>
+    </table>
+
+</body>
+</html>
